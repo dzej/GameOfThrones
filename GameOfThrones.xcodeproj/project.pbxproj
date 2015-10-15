@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		209129D71BCFCB7400B24DF3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209129D61BCFCB7400B24DF3 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		209129DA1BCFCBC200B24DF3 /* CharacterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 209129D91BCFCBC200B24DF3 /* CharacterItem.m */; settings = {ASSET_TAGS = (); }; };
+		209129E61BCFDEC900B24DF3 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 209129E51BCFDEC900B24DF3 /* CustomTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		209129E81BCFE74500B24DF3 /* got.png in Resources */ = {isa = PBXBuildFile; fileRef = 209129E71BCFE74500B24DF3 /* got.png */; settings = {ASSET_TAGS = (); }; };
 		20BB7A351BCED66B00437FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BB7A341BCED66B00437FDD /* main.m */; };
 		20BB7A381BCED66B00437FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BB7A371BCED66B00437FDD /* AppDelegate.m */; };
-		20BB7A3B1BCED66B00437FDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BB7A3A1BCED66B00437FDD /* ViewController.m */; };
 		20BB7A3E1BCED66B00437FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BB7A3C1BCED66B00437FDD /* Main.storyboard */; };
 		20BB7A401BCED66B00437FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BB7A3F1BCED66B00437FDD /* Assets.xcassets */; };
 		20BB7A431BCED66B00437FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BB7A411BCED66B00437FDD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209129D51BCFCB7400B24DF3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		209129D61BCFCB7400B24DF3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		209129D81BCFCBC200B24DF3 /* CharacterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterItem.h; sourceTree = "<group>"; };
+		209129D91BCFCBC200B24DF3 /* CharacterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterItem.m; sourceTree = "<group>"; };
+		209129E41BCFDEC900B24DF3 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		209129E51BCFDEC900B24DF3 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		209129E71BCFE74500B24DF3 /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got.png; sourceTree = "<group>"; };
 		20BB7A301BCED66B00437FDD /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BB7A341BCED66B00437FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20BB7A361BCED66B00437FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20BB7A371BCED66B00437FDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20BB7A391BCED66B00437FDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		20BB7A3A1BCED66B00437FDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20BB7A3D1BCED66B00437FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20BB7A3F1BCED66B00437FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20BB7A421BCED66B00437FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,13 +68,18 @@
 			children = (
 				20BB7A361BCED66B00437FDD /* AppDelegate.h */,
 				20BB7A371BCED66B00437FDD /* AppDelegate.m */,
-				20BB7A391BCED66B00437FDD /* ViewController.h */,
-				20BB7A3A1BCED66B00437FDD /* ViewController.m */,
+				209129D51BCFCB7400B24DF3 /* TableViewController.h */,
+				209129D61BCFCB7400B24DF3 /* TableViewController.m */,
+				209129D81BCFCBC200B24DF3 /* CharacterItem.h */,
+				209129D91BCFCBC200B24DF3 /* CharacterItem.m */,
 				20BB7A3C1BCED66B00437FDD /* Main.storyboard */,
 				20BB7A3F1BCED66B00437FDD /* Assets.xcassets */,
 				20BB7A411BCED66B00437FDD /* LaunchScreen.storyboard */,
 				20BB7A441BCED66B00437FDD /* Info.plist */,
+				209129E71BCFE74500B24DF3 /* got.png */,
 				20BB7A331BCED66B00437FDD /* Supporting Files */,
+				209129E41BCFDEC900B24DF3 /* CustomTableViewCell.h */,
+				209129E51BCFDEC900B24DF3 /* CustomTableViewCell.m */,
 			);
 			path = GameOfThrones;
 			sourceTree = "<group>";
@@ -137,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209129E81BCFE74500B24DF3 /* got.png in Resources */,
 				20BB7A431BCED66B00437FDD /* LaunchScreen.storyboard in Resources */,
 				20BB7A401BCED66B00437FDD /* Assets.xcassets in Resources */,
 				20BB7A3E1BCED66B00437FDD /* Main.storyboard in Resources */,
@@ -150,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BB7A3B1BCED66B00437FDD /* ViewController.m in Sources */,
 				20BB7A381BCED66B00437FDD /* AppDelegate.m in Sources */,
+				209129D71BCFCB7400B24DF3 /* TableViewController.m in Sources */,
+				209129DA1BCFCBC200B24DF3 /* CharacterItem.m in Sources */,
+				209129E61BCFDEC900B24DF3 /* CustomTableViewCell.m in Sources */,
 				20BB7A351BCED66B00437FDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +317,7 @@
 				20BB7A491BCED66B00437FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
