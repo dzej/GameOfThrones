@@ -10,12 +10,13 @@
 		209129D71BCFCB7400B24DF3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209129D61BCFCB7400B24DF3 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		209129DA1BCFCBC200B24DF3 /* CharacterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 209129D91BCFCBC200B24DF3 /* CharacterItem.m */; settings = {ASSET_TAGS = (); }; };
 		209129E61BCFDEC900B24DF3 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 209129E51BCFDEC900B24DF3 /* CustomTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		209129E81BCFE74500B24DF3 /* got.png in Resources */ = {isa = PBXBuildFile; fileRef = 209129E71BCFE74500B24DF3 /* got.png */; settings = {ASSET_TAGS = (); }; };
 		20BB7A351BCED66B00437FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BB7A341BCED66B00437FDD /* main.m */; };
 		20BB7A381BCED66B00437FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BB7A371BCED66B00437FDD /* AppDelegate.m */; };
 		20BB7A3E1BCED66B00437FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BB7A3C1BCED66B00437FDD /* Main.storyboard */; };
 		20BB7A401BCED66B00437FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BB7A3F1BCED66B00437FDD /* Assets.xcassets */; };
 		20BB7A431BCED66B00437FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BB7A411BCED66B00437FDD /* LaunchScreen.storyboard */; };
+		20C4E9FD1BD0148400D85ACE /* got.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C4E9FC1BD0148400D85ACE /* got.png */; settings = {ASSET_TAGS = (); }; };
+		20C4E9FF1BD0193A00D85ACE /* got_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C4E9FE1BD0193A00D85ACE /* got_launch.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,6 @@
 		209129D91BCFCBC200B24DF3 /* CharacterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterItem.m; sourceTree = "<group>"; };
 		209129E41BCFDEC900B24DF3 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		209129E51BCFDEC900B24DF3 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
-		209129E71BCFE74500B24DF3 /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got.png; sourceTree = "<group>"; };
 		20BB7A301BCED66B00437FDD /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BB7A341BCED66B00437FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20BB7A361BCED66B00437FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		20BB7A3F1BCED66B00437FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20BB7A421BCED66B00437FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20BB7A441BCED66B00437FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C4E9FC1BD0148400D85ACE /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = got.png; path = ../../../../Downloads/got.png; sourceTree = "<group>"; };
+		20C4E9FE1BD0193A00D85ACE /* got_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = got_launch.png; path = ../../../../Downloads/got_launch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,10 @@
 				209129D91BCFCBC200B24DF3 /* CharacterItem.m */,
 				20BB7A3C1BCED66B00437FDD /* Main.storyboard */,
 				20BB7A3F1BCED66B00437FDD /* Assets.xcassets */,
+				20C4E9FE1BD0193A00D85ACE /* got_launch.png */,
+				20C4E9FC1BD0148400D85ACE /* got.png */,
 				20BB7A411BCED66B00437FDD /* LaunchScreen.storyboard */,
 				20BB7A441BCED66B00437FDD /* Info.plist */,
-				209129E71BCFE74500B24DF3 /* got.png */,
 				20BB7A331BCED66B00437FDD /* Supporting Files */,
 				209129E41BCFDEC900B24DF3 /* CustomTableViewCell.h */,
 				209129E51BCFDEC900B24DF3 /* CustomTableViewCell.m */,
@@ -150,9 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209129E81BCFE74500B24DF3 /* got.png in Resources */,
 				20BB7A431BCED66B00437FDD /* LaunchScreen.storyboard in Resources */,
+				20C4E9FD1BD0148400D85ACE /* got.png in Resources */,
 				20BB7A401BCED66B00437FDD /* Assets.xcassets in Resources */,
+				20C4E9FF1BD0193A00D85ACE /* got_launch.png in Resources */,
 				20BB7A3E1BCED66B00437FDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
