@@ -34,8 +34,8 @@
 		20BB7A3F1BCED66B00437FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20BB7A421BCED66B00437FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20BB7A441BCED66B00437FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C4E9FC1BD0148400D85ACE /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = got.png; path = ../../../../Downloads/got.png; sourceTree = "<group>"; };
-		20C4E9FE1BD0193A00D85ACE /* got_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = got_launch.png; path = ../../../../Downloads/got_launch.png; sourceTree = "<group>"; };
+		20C4E9FC1BD0148400D85ACE /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got.png; sourceTree = "<group>"; };
+		20C4E9FE1BD0193A00D85ACE /* got_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got_launch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
